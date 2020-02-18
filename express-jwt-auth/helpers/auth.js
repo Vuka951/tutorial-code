@@ -12,7 +12,7 @@ const auth = (req, res, next) => {
         }
     } catch (e) {
         if (e.name === 'JsonWebTokenError') {
-            res.sendStatus(401);
+            res.sendStatus(401).json('JWT Invalid!');
         } else {
             res.sendStatus(401).json('Somethings not right!');
         }
