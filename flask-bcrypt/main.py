@@ -30,10 +30,11 @@ def register():
 
         return f'Welcome! {email}'
     except IntegrityError:
+        # the rollback func reverts the changes made to the db ( so if an error happens after we commited changes they will be reverted)
         db.session.rollback()
-        return 'User Already Exists'
+        return 'User Already Exists', 400
     except AttributeError:
-        return 'Provide an Email and Password in JSON format in the request body'
+        return 'Provide an Email and Password in JSON format in the request body', 400
 
 
 @app.route('/login', methods=['POST'])
@@ -57,4 +58,4 @@ def login():
         else:
             return 'Invalid Login Info!', 400
     except AttributeError:
-        return 'Provide an Email and Password in JSON format in the request body'
+        return 'Provide an Email and Password in JSON format in the request body', 400
