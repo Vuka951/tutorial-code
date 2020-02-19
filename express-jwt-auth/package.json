@@ -7,7 +7,7 @@
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vuka",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
