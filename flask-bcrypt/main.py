@@ -7,6 +7,7 @@ from models import User
 from db import db
 
 app = Flask(__name__)
+# SQLAlchemy config read more: https://flask-sqlalchemy.palletsprojects.com/en/2.x/
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///user.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
@@ -28,9 +29,9 @@ def register():
         db.session.add(user)
         db.session.commit()
 
-        return f'Welcome! {email}'
+        return f'Welcome! {email}', 200
     except IntegrityError:
-        # the rollback func reverts the changes made to the db ( so if an error happens after we commited changes they will be reverted)
+        # the rollback func reverts the changes made to the db ( so if an error happens after we commited changes they will be reverted )
         db.session.rollback()
         return 'User Already Exists', 400
     except AttributeError:
@@ -54,7 +55,7 @@ def login():
         
 
         if bcrypt.checkpw(password.encode('utf-8'), user.hash):
-            return f'Logged in, Welcome {email}!'
+            return f'Logged in, Welcome {email}!', 200
         else:
             return 'Invalid Login Info!', 400
     except AttributeError:
