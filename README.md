@@ -3,6 +3,7 @@
 
 ### Flask:
 * flask-bcrypt: https://www.youtube.com/watch?v=xPW1MSMd_B0
+* flask-jwt-auth: https://www.youtube.com/watch?v=AsQ8OcVvK3U
 
 ### Express
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
