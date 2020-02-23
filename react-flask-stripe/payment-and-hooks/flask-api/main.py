@@ -2,9 +2,9 @@ from flask import Flask, request
 from flask_cors import CORS
 import stripe
 
-stripe.api_key = 'sk_test_8Jgc3JVxmvAOL4f9N5DD4J6l00ux5Mxi7f'
+stripe.api_key = 'sk_test_....'
 
-endpoint_secret = 'whsec_zDkuFP37QWQommMuWWSmX0OvBdQnzBLx'
+endpoint_secret = 'whsec_...'
 
 app = Flask(__name__)
 CORS(app)
