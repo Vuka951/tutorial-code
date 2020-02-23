@@ -6,7 +6,7 @@
 * flask-jwt-auth: https://www.youtube.com/watch?v=AsQ8OcVvK3U
 * Stripe:
   * react-flask-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=Y9EpPc19xjw
-  * react-flask-stripe/payment-and-hooks: https://www.youtube.com/watch?v=Y9EpPc19xjw
+  * react-flask-stripe/payment-and-webhook: https://www.youtube.com/watch?v=Y9EpPc19xjw
 ### Express
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
 * express-jwt-auth: https://www.youtube.com/watch?v=BQdm6k4j9kg
