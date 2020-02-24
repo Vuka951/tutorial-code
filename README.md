@@ -7,9 +7,15 @@
 * Stripe:
   * react-flask-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=Y9EpPc19xjw
   * react-flask-stripe/payment-and-webhook: https://www.youtube.com/watch?v=Y9EpPc19xjw
+
 ### Express
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
 * express-jwt-auth: https://www.youtube.com/watch?v=BQdm6k4j9kg
+
+### Planned:
+* react-express-stripe
+* express-google-oauth
+* flask-google-oauth
 
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
 
