@@ -7,6 +7,7 @@
 * Stripe:
   * react-flask-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=Y9EpPc19xjw
   * react-flask-stripe/payment-and-webhook: https://www.youtube.com/watch?v=Y9EpPc19xjw
+  * react-flask-stripe/subscriptions: https://www.youtube.com/watch?v=FguUqxaN-u8
 
 ### Express
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
