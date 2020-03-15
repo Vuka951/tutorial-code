@@ -13,18 +13,21 @@ user_info = {}
 
 @app.route('/pay', methods=['POST'])
 def pay():
-    email = request.json.get('email', None)
+    try:
+        email = request.json.get('email', None)
 
-    if not email:
-        return 'You need to send an Email!', 400
+        if not email:
+            return 'You need to send an Email!', 400
 
-    intent = stripe.PaymentIntent.create(
-        amount=50000,
-        currency='usd',
-        receipt_email=email
-    )
+        intent = stripe.PaymentIntent.create(
+            amount=50000,
+            currency='usd',
+            receipt_email=email
+        )
 
-    return {"client_secret": intent['client_secret']}, 200
+        return {"client_secret": intent['client_secret']}, 200
+    except AttributeError:
+        return 'Provide an Email and Password in JSON format in the request body', 400
 
 
 @app.route('/sub', methods=['POST'])
