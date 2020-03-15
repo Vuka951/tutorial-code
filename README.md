@@ -12,9 +12,12 @@
 ### Express
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
 * express-jwt-auth: https://www.youtube.com/watch?v=BQdm6k4j9kg
+* Stripe:
+  * react-express-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=JkSgXgqRH6k
+  * react-express-stripe/one-time-payment: https://www.youtube.com/watch?v=JkSgXgqRH6k
+  * react-express-stripe/subscription: https://www.youtube.com/watch?v=CqXjp1vtNwk
 
 ### Planned:
-* react-express-stripe
 * express-google-oauth
 * flask-google-oauth
 
