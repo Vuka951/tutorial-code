@@ -7,7 +7,7 @@ import {loadStripe} from '@stripe/stripe-js';
 // Styles
 import '../index.scss';
 
-const stripePromise = loadStripe('pk_test_Oq0kVWwYITwdL0z0nlgGuAEa009E3akd9q');
+const stripePromise = loadStripe('pk_test_O.....');
 
 function App() {
   return (
