@@ -12,6 +12,7 @@
 ### Express
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
 * express-jwt-auth: https://www.youtube.com/watch?v=BQdm6k4j9kg
+* express-google-oauth2: https://www.youtube.com/watch?v=o9e3ex-axzA
 * Stripe:
   * react-express-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=JkSgXgqRH6k
   * react-express-stripe/one-time-payment: https://www.youtube.com/watch?v=JkSgXgqRH6k
@@ -19,7 +20,6 @@
   * react-express-stripe/webhooks: https://www.youtube.com/watch?v=2mhf8W1wN_M
 
 ### Planned:
-* express-google-oauth
 * flask-google-oauth
 
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
