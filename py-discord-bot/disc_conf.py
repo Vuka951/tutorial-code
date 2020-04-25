@@ -1,0 +1,2 @@
+TOKEN = 'NzA...'
+PREFIX = '!'
