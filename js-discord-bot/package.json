@@ -1,0 +1,16 @@
+{
+  "name": "js-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "Vuka",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "ytsr": "^0.1.12"
+  }
+}
