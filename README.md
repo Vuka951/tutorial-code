@@ -21,7 +21,7 @@
   * react-express-stripe/webhooks: https://www.youtube.com/watch?v=2mhf8W1wN_M
   
 ### Discord:
-* js-discord-bot:
+* js-discord-bot: https://www.youtube.com/watch?v=C_-L283Lyvg
 * py-discord-bot:
 
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
