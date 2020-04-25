@@ -19,6 +19,10 @@
   * react-express-stripe/one-time-payment: https://www.youtube.com/watch?v=JkSgXgqRH6k
   * react-express-stripe/subscription: https://www.youtube.com/watch?v=CqXjp1vtNwk
   * react-express-stripe/webhooks: https://www.youtube.com/watch?v=2mhf8W1wN_M
+  
+### Discord:
+* js-discord-bot:
+* py-discord-bot:
 
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
 
