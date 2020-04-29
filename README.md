@@ -24,6 +24,9 @@
 * js-discord-bot: https://www.youtube.com/watch?v=C_-L283Lyvg
 * py-discord-bot:
 
+### Redux
+* react-redux: 
+
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
 
-Note: If you do find issues or ways to improve the code feel free to open an issue or create a pull request. <3
+Note: If you do find issues or ways to improve the code feel free to open an issue <3
