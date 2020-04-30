@@ -30,3 +30,4 @@
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
 
 Note: If you do find issues or ways to improve the code feel free to open an issue <3
+If you found the videos or the code helpful give it a star too
