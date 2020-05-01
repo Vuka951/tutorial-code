@@ -22,7 +22,7 @@
   
 ### Discord:
 * js-discord-bot: https://www.youtube.com/watch?v=C_-L283Lyvg
-* py-discord-bot:
+* py-discord-bot: https://www.youtube.com/watch?v=fOc3eGHSemw
 
 ### Redux
 * react-redux: 
