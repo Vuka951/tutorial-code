@@ -25,7 +25,7 @@
 * py-discord-bot: https://www.youtube.com/watch?v=fOc3eGHSemw
 
 ### Redux
-* react-redux: 
+* react-redux: https://www.youtube.com/watch?v=8NT2UA4ZsbY
 
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
 
