@@ -14,6 +14,7 @@
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
 * express-jwt-auth: https://www.youtube.com/watch?v=BQdm6k4j9kg
 * express-google-oauth2: https://www.youtube.com/watch?v=o9e3ex-axzA
+* express-websockets: 
 * Stripe:
   * react-express-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=JkSgXgqRH6k
   * react-express-stripe/one-time-payment: https://www.youtube.com/watch?v=JkSgXgqRH6k
