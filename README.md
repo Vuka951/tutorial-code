@@ -28,8 +28,8 @@
 * react-redux: https://www.youtube.com/watch?v=8NT2UA4ZsbY
 
 ### Websockets
-* js-express-websockets: https://www.youtube.com/watch?v=wV-fDdHhGqs&t=59s
-* py-websockets: 
+* js-express-websockets: https://www.youtube.com/watch?v=wV-fDdHhGqs
+* py-websockets: https://www.youtube.com/watch?v=lv0oEnQY1pM
 
 Note: **The code in this repo is an updated and improved version of the ones from the videos. (Since the videos are unscripted and relatively short there isn't enought time to explain everything and make the code pretty~ish) **
 
