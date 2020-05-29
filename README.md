@@ -11,6 +11,7 @@
   * react-flask-stripe/subscriptions: https://www.youtube.com/watch?v=FguUqxaN-u8
 
 ### Express
+* express-email: https://www.youtube.com/watch?v=zEKeNOo9woo
 * express-bcrypt: https://www.youtube.com/watch?v=9yIrM7eZwUE
 * express-jwt-auth: https://www.youtube.com/watch?v=BQdm6k4j9kg
 * express-google-oauth2: https://www.youtube.com/watch?v=o9e3ex-axzA
