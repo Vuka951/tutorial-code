@@ -3,6 +3,7 @@
 
 ### Flask:
 * flask-email: https://www.youtube.com/watch?v=1Xvb2n17FqU
+* flask-file-upload: https://www.youtube.com/watch?v=zMhmZ_ePGiM
 * flask-bcrypt: https://www.youtube.com/watch?v=xPW1MSMd_B0
 * flask-jwt-auth: https://www.youtube.com/watch?v=AsQ8OcVvK3U
 * flask-google-oauth2: https://www.youtube.com/watch?v=BfYsdNaHrps
