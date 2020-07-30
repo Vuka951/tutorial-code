@@ -7,6 +7,7 @@
 * flask-bcrypt: https://www.youtube.com/watch?v=xPW1MSMd_B0
 * flask-jwt-auth: https://www.youtube.com/watch?v=AsQ8OcVvK3U
 * flask-google-oauth2: https://www.youtube.com/watch?v=BfYsdNaHrps
+* flask-dotenv: https://www.youtube.com/watch?v=3EuB7J5BnjE
 * Stripe:
   * react-flask-stripe/basic: Starting set up for - https://www.youtube.com/watch?v=Y9EpPc19xjw
   * react-flask-stripe/payment-and-webhook: https://www.youtube.com/watch?v=Y9EpPc19xjw
