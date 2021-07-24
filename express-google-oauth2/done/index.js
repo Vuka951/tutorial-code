@@ -1,18 +1,15 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const bodyParser = require('body-parser')
 const passport = require('passport');
 const cookieSession = require('cookie-session')
+require('dotenv').config()
 require('./passport-setup');
 
 app.use(cors())
 
-// parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
- 
 // parse application/json
-app.use(bodyParser.json())
+app.use(express.json())
 
 // For an actual app you should configure this with an experation time, better keys, proxy and secure
 app.use(cookieSession({
@@ -56,4 +53,4 @@ app.get('/logout', (req, res) => {
     res.redirect('/');
 })
 
-app.listen(3000, () => console.log(`Example app listening on port ${3000}!`))
+app.listen(process.env.EXPRESS_PORT, () => console.log(`Example app listening on port ${process.env.EXPRESS_PORT}!`))
